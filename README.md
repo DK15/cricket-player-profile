@@ -1,6 +1,8 @@
-# search_player
+# player_profile
 
-A new Flutter project.
+This app shows Cricket player's profile and their record across all three formats (Test, ODI, T20). User can search for a cricket player and then app shows corresponding profile and record of searched player. The profile is displayed at front Container and record at back container using flip card widget.
+
+
 
 ## Getting Started
 

@@ -159,7 +159,7 @@ class _AutoCompleteState extends State<AutoComplete> {
 
   fetchJson(int pid) async {
     var response = await http.get(
-        'http://cricapi.com/api/playerStats?apikey=w7qMBWsDWwfWgVZl7WCJWcDZOqe2&pid=$pid');
+        'http://cricapi.com/api/playerStats?apikey=<apikey>&pid=$pid');
     if (response.statusCode == 200) {
       String responseBody = response.body;
       var responseJson = jsonDecode(responseBody);
